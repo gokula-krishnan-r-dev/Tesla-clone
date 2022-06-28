@@ -1,4 +1,5 @@
 {
+  "homepage": "http://2002gokula.github.io/Tesla-clone",
   "name": "tesla__clone",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^14.1.1",
+    "build": "^0.1.4",
     "fade": "^0.2.0",
     "filepath": "^1.1.0",
     "react": "^18.1.0",
@@ -24,6 +26,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
