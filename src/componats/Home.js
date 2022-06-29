@@ -8,7 +8,7 @@ function Home() {
       <Section
         title='Model S'
         description='Order Online for Touchless Delivery'
-        backgroundImg='https://yt3.ggpht.com/URIi4aND7NsUFBx0aV996zu7wCgATCVokvqu9T3fFggRUO9Gc-yPpSAuupeScO9mDxXlE4jbsg=s88-c-k-c0x00ffffff-no-rj'
+        backgroundImg='model-3.jpg'
         leftBtnText='Custom order'
         rightBtnText='Exisiting inventory'
       />
