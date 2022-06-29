@@ -52,7 +52,7 @@ const Wrap = styled.div`
   align-items: center; /* vertical alignment */
   background-image: ${(props) =>
     `url("../images/${props.bgImage}")`} !important;
-  background-image: url('../images/audio.jpg');
+  background-image: url('./images/audio.jpg');
 `
 
 const ItemText = styled.div`
