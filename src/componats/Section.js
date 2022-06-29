@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Fade from 'react-reveal/Fade'
+import './Section.css'
 function Section({
   title,
   description,
@@ -9,7 +10,7 @@ function Section({
   rightBtnText,
 }) {
   return (
-    <Wrap bgImage={backgroundImg}>
+    <Wrap className='back' bgImage={backgroundImg}>
       {' '}
       {/* pass props */}
       <Fade bottom>
@@ -50,7 +51,7 @@ const Wrap = styled.div`
   flex-direction: column; /* switch to vertical */
   justify-content: space-between; /* horizontal alignment */
   align-items: center; /* vertical alignment */
-  background-image: ${(props) => `url("./images/${props.bgImage}")`} !important;
+  background-image: ${(props) => `url("./Images/${props.bgImage}")`} !important;
 `
 
 const ItemText = styled.div`
