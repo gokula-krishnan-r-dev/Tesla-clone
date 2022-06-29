@@ -50,7 +50,7 @@ const Wrap = styled.div`
   flex-direction: column; /* switch to vertical */
   justify-content: space-between; /* horizontal alignment */
   align-items: center; /* vertical alignment */
-  background-image: ${(props) => `url("/images/${props.bgImage}")`};
+  background-image: ${(props) => `url("../images/${props.bgImage}")`};
 `
 
 const ItemText = styled.div`
